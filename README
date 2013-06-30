@@ -3,7 +3,7 @@ Individual Task #1: Data Extractioon
 Required Libraries:
 htmlunit-2.11.jar
 htmlunit-core-js-2.11.jar
-jgoodies-form.jar (bundled with IntelliJ)
+jgoodies-form.jar (bundled with IntelliJ IDEA)
 
 How to Use:
 1. Simply click the 'Open an HTML file' button to select an article's HTML file.
