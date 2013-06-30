@@ -8,6 +8,6 @@ hgoodies-form.jar (bundled with IntelliJ)
 How to Use:
 Simply click the 'Open an HTML file' button to select an article's HTML file.
 After selecting a file, the program will extract the data (author, date, content) and display it on the screen.
-Pressing the 'Save to CSV' button will allow you to save the unique words in the content to a CSV file of your choice.
+Clicking the 'Save to CSV' button will allow you to save the unique words in the content to a CSV file of your choice.
 
 -Gilmore Capiral
