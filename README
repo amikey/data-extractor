@@ -3,11 +3,11 @@ Individual Task #1: Data Extractioon
 Required Libraries:
 htmlunit-2.11.jar
 htmlunit-core-js-2.11.jar
-hgoodies-form.jar (bundled with IntelliJ)
+jgoodies-form.jar (bundled with IntelliJ)
 
 How to Use:
-Simply click the 'Open an HTML file' button to select an article's HTML file.
-After selecting a file, the program will extract the data (author, date, content) and display it on the screen.
-Clicking the 'Save to CSV' button will allow you to save the unique words in the content to a CSV file of your choice.
+1. Simply click the 'Open an HTML file' button to select an article's HTML file.
+2. After selecting a file, the program will extract the data (author, date, content) and display it on the screen.
+3. Clicking the 'Save to CSV' button will allow you to save the unique words in the content to a CSV file of your choice.
 
 -Gilmore Capiral
