@@ -18,7 +18,7 @@ public class DataExtractorForm {
         Toolkit tk = Toolkit.getDefaultToolkit();
         Dimension screenSize = tk.getScreenSize();
 
-        JFrame frame = new JFrame("Individual Task #1: Data Extraction");
+        JFrame frame = new JFrame("Data Extraction");
         frame.setPreferredSize(new Dimension(450, 600));
         frame.pack();
         frame.setLocationRelativeTo(null);

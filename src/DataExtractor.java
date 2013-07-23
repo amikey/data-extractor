@@ -41,7 +41,7 @@ public class DataExtractor {
                 output.createNewFile();
             }
 
-            FileWriter fw = new FileWriter(output.getAbsoluteFile());
+            FileWriter fw = new FileWriter(output.getAbsoluteFile().toString());
             BufferedWriter bw = new BufferedWriter(fw);
             Iterator<String> itr = words.iterator();
             while (itr.hasNext()) {
@@ -56,7 +56,6 @@ public class DataExtractor {
 
     private String title, author, date, content;
 
-    @SuppressWarnings("deprecation")
     public DataExtractor(File fInput) {
         WebClient client = new WebClient();
         client.setJavaScriptEnabled(false);
@@ -67,7 +66,7 @@ public class DataExtractor {
 
         HtmlPage currentPage = null;
         try {
-            currentPage = client.getPage(fInput.toURL().toString());
+            currentPage = client.getPage(fInput.toURL());
 
             HtmlElement hTitle = (HtmlElement) currentPage.getFirstByXPath("//div[@id=\"content\"]/h1");
             title = hTitle.asText();
